@@ -30,17 +30,9 @@ nav,
 }
 
 ul {
-	display: inline-block;
-}
-
-ul li {
-	display: inline-block;
-	margin-right: 70px; 
-}
-
-
-nav img {
-	vertical-align: middle;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav a {
