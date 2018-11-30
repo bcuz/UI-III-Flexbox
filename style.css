@@ -138,7 +138,9 @@ footer {
 	margin-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between
+	justify-content: space-between;
+	border-bottom: 1.5px solid #000;
+
 }
 
 .service-item {
@@ -147,4 +149,14 @@ footer {
 	border: 1px solid #000;
 	padding: 10px;
 	margin-bottom: 25px;
+}
+
+.service-item p {
+	margin-bottom: 10px;
+}
+
+.learn {
+	border-radius: 5px;
+	background-color: #fff;
+	/* transition: none; */
 }
