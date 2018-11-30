@@ -54,6 +54,8 @@ h1 {
 .jumbo {
 	padding-top: 100px;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .jumbo span {
@@ -62,14 +64,6 @@ h1 {
 
 .jumbo-text {
 	text-align: center;
-	width: 45%;
-	float: left;
-}
-
-.jumbo-img {
-	display: inline-block;
-	width: 55%;
-	text-align: right;
 }
 
 .btn {
