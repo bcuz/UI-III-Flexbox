@@ -120,7 +120,7 @@ footer {
 
 .services-header-img {
 	width: 100%;
-	padding-top: 40px;
+	padding-top: 60px;
 }
 
 .services-intro h1 {
@@ -135,10 +135,9 @@ footer {
 }
 
 .service-list {
-	/* width: 960px; */
+	margin-top: 30px;
 	display: flex;
 	flex-wrap: wrap;
-	/* margin: 0 auto; */
 	justify-content: space-between
 }
 
@@ -146,6 +145,6 @@ footer {
 	background-color: #f4f3f4;
 	width: 49%;
 	border: 1px solid #000;
-	padding: 5px;
+	padding: 10px;
 	margin-bottom: 25px;
 }
