@@ -79,11 +79,17 @@ h1 {
 	transform: scale(1.1);
 }
 
+.intro {
+	display: flex;
+}
+
 .features,
 .about {
-	width: 48.66%;
-	display: inline-block;
-	margin: 20px 1.33% 20px 0;
+	margin: 20px 0;
+}
+
+.features {
+	margin-right: 2%;
 }
 
 .middle-img {
