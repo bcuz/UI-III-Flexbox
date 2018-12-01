@@ -73,10 +73,14 @@ nav a:hover {
 	padding: 10px 40px;
 	text-decoration: none;
 	color: #000;
-	transition: transform .7s;
 }
 
-.btn:hover {
+.animate {
+	transition: transform .7s;
+
+}
+
+.animate:hover {
 	transform: scale(1.1);
 }
 
