@@ -29,7 +29,7 @@ nav,
 	margin: 0 auto;
 }
 
-ul {
+nav ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -172,13 +172,27 @@ footer {
 	/* transition: none; */
 }
 
-
 .facts {
+	margin-top: 30px;
 	display: flex;
 	/* flex-wrap: wrap; */
 	justify-content: space-between;
 }
 
+/* flex on .fact-item ? */
+
 .services-info-img {
 	width: 100%
+}
+.fact-item ul {
+	list-style-type: square;
+	margin-left: 16px;
+}
+
+.fact-item p {
+	margin-bottom: 20px;
+}
+
+.fact-item ul li {
+  margin-bottom: 15px;
 }
