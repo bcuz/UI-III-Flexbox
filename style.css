@@ -153,7 +153,7 @@ footer {
 }
 
 @media only screen and (min-width: 401px) {
-	.service-item {
+	.service-item, .fact-item {
 		width: 49%;
 	}
 
@@ -170,4 +170,15 @@ footer {
 	border-radius: 5px;
 	background-color: #fff;
 	/* transition: none; */
+}
+
+
+.facts {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+
+.services-info-img {
+	width: 100%
 }
