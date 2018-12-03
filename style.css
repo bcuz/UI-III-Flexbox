@@ -88,9 +88,16 @@ nav a:hover {
 	display: flex;
 }
 
+
+.main {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
 .features,
 .about {
 	margin: 20px 0;
+	flex: 1 0 49%;
 }
 
 .features {
@@ -98,15 +105,27 @@ nav a:hover {
 }
 
 .middle-img {
-	background: url(img/mid-page-accent.jpg) no-repeat center center;
+	/* background: url(img/mid-page-accent.jpg) no-repeat center center;
 	background-size: cover;
 	height: 180px;
-	margin: 10px 0 20px;
+	margin: 10px 0 20px; */
+
+	flex: 0 1 100%;
+}
+
+.middle-img img {
+	width: 100%;
 }
 
 .more-info {
 	display: flex;
 	margin-bottom: 30px;
+}
+
+.services,
+.product,
+.vision {
+	flex: 1 0 33%;
 }
 
 .contact {
