@@ -156,7 +156,6 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	border-bottom: 1.5px solid #000;
-
 }
 
 .service-item {
@@ -184,7 +183,6 @@ footer {
 .learn {
 	border-radius: 5px;
 	background-color: #fff;
-	/* transition: none; */
 }
 
 .facts {
