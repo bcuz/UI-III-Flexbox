@@ -111,6 +111,7 @@ nav a:hover {
 	margin: 10px 0 20px; */
 
 	flex: 0 1 100%;
+	margin-bottom: 30px;
 }
 
 .middle-img img {
@@ -126,6 +127,7 @@ nav a:hover {
 .product,
 .vision {
 	flex: 1 0 33%;
+	margin-bottom: 30px;
 }
 
 .contact {
