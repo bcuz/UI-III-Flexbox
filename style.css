@@ -98,19 +98,11 @@ nav a:hover {
 	margin-right: 2%;
 }
 
-.middle-img {
-	/* background: url(img/mid-page-accent.jpg) no-repeat center center;
-	background-size: cover;
-	height: 180px;
-	margin: 10px 0 20px; */
-	/* used https://stackoverflow.com/questions/26086515/css-flex-how-to-display-one-item-on-first-line-and-two-on-the-next-line */
+.main img {
+	/* https://stackoverflow.com/questions/26086515/css-flex-how-to-display-one-item-on-first-line-and-two-on-the-next-line */
 	/* important part is flex-basis of 100% */
 	flex: 0 1 100%;
-	margin-bottom: 30px;
-}
-
-.middle-img img {
-	width: 100%;
+	margin: 10px 0 30px;
 }
 
 .services,
