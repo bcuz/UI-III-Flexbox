@@ -158,16 +158,6 @@ footer {
 	margin-bottom: 25px;
 }
 
-@media only screen and (min-width: 401px) {
-	.service-item, .fact-item {
-		width: 49%;
-	}
-
-	nav ul {
-		flex-direction: row;
-	}
-}
-
 .service-item p {
 	margin-bottom: 10px;
 }
@@ -180,18 +170,19 @@ footer {
 .facts {
 	margin: 30px 0;
 	display: flex;
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 /* flex on .fact-item ? */
 
-.services-info-img {
-	width: 100%
-}
 .fact-item ul {
 	list-style-type: square;
 	margin-left: 16px;
+}
+
+.fact-item {
+	width: 100%;
 }
 
 .fact-item p {
@@ -202,3 +193,12 @@ footer {
   margin-bottom: 15px;
 }
 
+@media only screen and (min-width: 401px) {
+	.service-item, .fact-item {
+		width: 49%;
+	}
+
+	nav ul {
+		flex-direction: row;
+	}
+}
